@@ -14,7 +14,6 @@ const App = () =>  {
 		setData(statue);
 		console.log(data[i].clientStatue)
 		}
-		
 		const handleRemove = i => {
 		const wezo = data.filter((row, j) => j !== i)
 		setData(wezo);

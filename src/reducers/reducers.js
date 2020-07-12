@@ -5,10 +5,8 @@ const clientsReducer = (state = {}, action) => {
         case CLIENTS_GET:
             return action.payload
         case CLIENT_NEW:
-            
             return action.payload
         case CLIENT_UPDATE:
-            
             return action.payload
         default:
            return state
